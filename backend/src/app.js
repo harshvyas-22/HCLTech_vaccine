@@ -17,8 +17,23 @@ const swaggerUi = require('swagger-ui-express');
 
 const app = express();
 
+const allowedOrigins = [
+  'http://localhost:4173',
+  'http://localhost:3000',
+  'https://hcl-tech-vaccine.vercel.app'
+];
+
 app.use(helmet());
-app.use(cors());
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+}));
 app.use(express.json({ limit: '10kb' }));
 app.use(mongoSanitize());
 app.use(xss());
