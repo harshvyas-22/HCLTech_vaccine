@@ -1,0 +1,1451 @@
+[
+  {
+    "_id": "hsp_001",
+    "name": "Delhi Care Hospital",
+    "city": "Delhi",
+    "state": "Delhi",
+    "pincode": "110001",
+    "address": "182, Connaught Place, Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.622059,
+        12.578836
+      ]
+    },
+    "vaccines": [
+      "vac_003",
+      "vac_001",
+      "vac_005",
+      "vac_007",
+      "vac_002"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 20,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-19",
+        "total": 20,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-20",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-21",
+        "total": 20,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-22",
+        "total": 30,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-23",
+        "total": 20,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-27",
+        "total": 40,
+        "booked": 3
+      }
+    ]
+  },
+  {
+    "_id": "hsp_002",
+    "name": "Mumbai Care Hospital",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400001",
+    "address": "221, Andheri East, Mumbai",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        76.60857,
+        18.283122
+      ]
+    },
+    "vaccines": [
+      "vac_007",
+      "vac_002",
+      "vac_006",
+      "vac_003"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-19",
+        "total": 20,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-21",
+        "total": 20,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-22",
+        "total": 30,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-23",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-24",
+        "total": 40,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-25",
+        "total": 30,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-26",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 15
+      }
+    ]
+  },
+  {
+    "_id": "hsp_003",
+    "name": "Bengaluru General Hospital",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "pincode": "560001",
+    "address": "172, MG Road, Bengaluru",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.70829,
+        18.784679
+      ]
+    },
+    "vaccines": [
+      "vac_001",
+      "vac_006",
+      "vac_005",
+      "vac_003"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 20,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-19",
+        "total": 40,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 20,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-22",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-24",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-27",
+        "total": 20,
+        "booked": 0
+      }
+    ]
+  },
+  {
+    "_id": "hsp_004",
+    "name": "Hyderabad Health Clinic",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pincode": "500001",
+    "address": "148, Banjara Hills, Hyderabad",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.453421,
+        23.692388
+      ]
+    },
+    "vaccines": [
+      "vac_005",
+      "vac_001",
+      "vac_007",
+      "vac_003",
+      "vac_002"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-19",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-21",
+        "total": 20,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-22",
+        "total": 20,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-27",
+        "total": 30,
+        "booked": 0
+      }
+    ]
+  },
+  {
+    "_id": "hsp_005",
+    "name": "Chennai City Hospital",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600001",
+    "address": "49, T Nagar, Chennai",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        71.886516,
+        21.179655
+      ]
+    },
+    "vaccines": [
+      "vac_006",
+      "vac_007",
+      "vac_001",
+      "vac_003"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-19",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-20",
+        "total": 20,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-21",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-22",
+        "total": 30,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-24",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 20,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-26",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 15
+      }
+    ]
+  },
+  {
+    "_id": "hsp_006",
+    "name": "Kolkata General Hospital",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "pincode": "700001",
+    "address": "109, Salt Lake, Kolkata",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.222046,
+        25.276735
+      ]
+    },
+    "vaccines": [
+      "vac_005",
+      "vac_002",
+      "vac_006"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-19",
+        "total": 20,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-22",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-23",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-24",
+        "total": 30,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-25",
+        "total": 20,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-27",
+        "total": 40,
+        "booked": 5
+      }
+    ]
+  },
+  {
+    "_id": "hsp_007",
+    "name": "Pune Care Hospital",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "pincode": "411001",
+    "address": "173, Koregaon Park, Pune",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.06911,
+        20.923595
+      ]
+    },
+    "vaccines": [
+      "vac_005",
+      "vac_003"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-19",
+        "total": 40,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 20,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-22",
+        "total": 40,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-23",
+        "total": 20,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-24",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-26",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-27",
+        "total": 30,
+        "booked": 5
+      }
+    ]
+  },
+  {
+    "_id": "hsp_008",
+    "name": "Ahmedabad Care Hospital",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "380001",
+    "address": "104, C.G. Road, Ahmedabad",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.564272,
+        24.01185
+      ]
+    },
+    "vaccines": [
+      "vac_007",
+      "vac_001"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 30,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-19",
+        "total": 50,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-21",
+        "total": 40,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-22",
+        "total": 20,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-23",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-24",
+        "total": 40,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-25",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-27",
+        "total": 40,
+        "booked": 10
+      }
+    ]
+  },
+  {
+    "_id": "hsp_009",
+    "name": "Jaipur Care Hospital",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "pincode": "302001",
+    "address": "64, Vaishali Nagar, Jaipur",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.831801,
+        18.725715
+      ]
+    },
+    "vaccines": [
+      "vac_004",
+      "vac_008",
+      "vac_006"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-19",
+        "total": 30,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-21",
+        "total": 20,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-22",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-23",
+        "total": 50,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-24",
+        "total": 40,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 15
+      }
+    ]
+  },
+  {
+    "_id": "hsp_010",
+    "name": "Lucknow Medical Centre",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "pincode": "226001",
+    "address": "109, Hazratganj, Lucknow",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.669761,
+        17.252561
+      ]
+    },
+    "vaccines": [
+      "vac_002",
+      "vac_003",
+      "vac_005"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 40,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-19",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-22",
+        "total": 20,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 8
+      }
+    ]
+  },
+  {
+    "_id": "hsp_011",
+    "name": "Bhopal Care Hospital",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "pincode": "462001",
+    "address": "114, MP Nagar, Bhopal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.160445,
+        25.119338
+      ]
+    },
+    "vaccines": [
+      "vac_004",
+      "vac_002",
+      "vac_006",
+      "vac_001",
+      "vac_005"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-19",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-22",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-24",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 15
+      }
+    ]
+  },
+  {
+    "_id": "hsp_012",
+    "name": "Indore Care Hospital",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "pincode": "452001",
+    "address": "13, Vijay Nagar, Indore",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.042898,
+        18.811759
+      ]
+    },
+    "vaccines": [
+      "vac_003",
+      "vac_006",
+      "vac_004",
+      "vac_007",
+      "vac_008"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-19",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-22",
+        "total": 50,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-23",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-24",
+        "total": 40,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-26",
+        "total": 20,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-27",
+        "total": 30,
+        "booked": 3
+      }
+    ]
+  },
+  {
+    "_id": "hsp_013",
+    "name": "Chandigarh Care Hospital",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "pincode": "160001",
+    "address": "249, Sector 17, Chandigarh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        71.865256,
+        23.07131
+      ]
+    },
+    "vaccines": [
+      "vac_003",
+      "vac_006",
+      "vac_002",
+      "vac_001",
+      "vac_004"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-19",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-20",
+        "total": 20,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-21",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-22",
+        "total": 20,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-23",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 10
+      }
+    ]
+  },
+  {
+    "_id": "hsp_014",
+    "name": "Surat Medical Centre",
+    "city": "Surat",
+    "state": "Gujarat",
+    "pincode": "395003",
+    "address": "43, Athwa, Surat",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.128281,
+        17.627168
+      ]
+    },
+    "vaccines": [
+      "vac_008",
+      "vac_002",
+      "vac_003"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-19",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-21",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-22",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-23",
+        "total": 50,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 20,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 3
+      }
+    ]
+  },
+  {
+    "_id": "hsp_015",
+    "name": "Nagpur City Hospital",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "pincode": "440001",
+    "address": "232, Dharampeth, Nagpur",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        71.172708,
+        15.579462
+      ]
+    },
+    "vaccines": [
+      "vac_005",
+      "vac_004"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-19",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-21",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-22",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-23",
+        "total": 20,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-25",
+        "total": 20,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-27",
+        "total": 20,
+        "booked": 15
+      }
+    ]
+  },
+  {
+    "_id": "hsp_016",
+    "name": "Kochi City Hospital",
+    "city": "Kochi",
+    "state": "Kerala",
+    "pincode": "682001",
+    "address": "68, Edappally, Kochi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        88.530361,
+        23.702587
+      ]
+    },
+    "vaccines": [
+      "vac_001",
+      "vac_002"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-19",
+        "total": 20,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-20",
+        "total": 30,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-22",
+        "total": 20,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-24",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-26",
+        "total": 20,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-27",
+        "total": 30,
+        "booked": 5
+      }
+    ]
+  },
+  {
+    "_id": "hsp_017",
+    "name": "Patna General Hospital",
+    "city": "Patna",
+    "state": "Bihar",
+    "pincode": "800001",
+    "address": "109, Boring Road, Patna",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.93183,
+        22.610106
+      ]
+    },
+    "vaccines": [
+      "vac_001",
+      "vac_003"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-19",
+        "total": 30,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 30,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-21",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-22",
+        "total": 20,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-23",
+        "total": 20,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-24",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-26",
+        "total": 40,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 15
+      }
+    ]
+  },
+  {
+    "_id": "hsp_018",
+    "name": "Bhubaneswar Health Clinic",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "pincode": "751001",
+    "address": "170, Patia, Bhubaneswar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.368166,
+        11.095937
+      ]
+    },
+    "vaccines": [
+      "vac_002",
+      "vac_004",
+      "vac_003",
+      "vac_007",
+      "vac_008"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-19",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-21",
+        "total": 50,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-22",
+        "total": 40,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-25",
+        "total": 50,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 5
+      }
+    ]
+  },
+  {
+    "_id": "hsp_019",
+    "name": "Guwahati General Hospital",
+    "city": "Guwahati",
+    "state": "Assam",
+    "pincode": "781001",
+    "address": "56, Ulubari, Guwahati",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        89.374187,
+        19.583606
+      ]
+    },
+    "vaccines": [
+      "vac_008",
+      "vac_007"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-19",
+        "total": 50,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-21",
+        "total": 40,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-22",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-23",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-24",
+        "total": 20,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-25",
+        "total": 30,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 8
+      }
+    ]
+  },
+  {
+    "_id": "hsp_020",
+    "name": "Imphal Health Clinic",
+    "city": "Imphal",
+    "state": "Manipur",
+    "pincode": "795001",
+    "address": "16, Khurai, Imphal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.959511,
+        9.143305
+      ]
+    },
+    "vaccines": [
+      "vac_008",
+      "vac_006",
+      "vac_007"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-19",
+        "total": 20,
+        "booked": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-21",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-22",
+        "total": 30,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-23",
+        "total": 40,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-24",
+        "total": 40,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-27",
+        "total": 40,
+        "booked": 5
+      }
+    ]
+  }
+]

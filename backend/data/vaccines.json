@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "vac_001",
+    "name": "Covishield",
+    "manufacturer": "Serum Institute of India",
+    "description": "Mock vaccine entry for Covishield used for testing and demo purposes.",
+    "dosesRequired": 2,
+    "prescriptionRequired": true
+  },
+  {
+    "_id": "vac_002",
+    "name": "Covaxin",
+    "manufacturer": "Bharat Biotech",
+    "description": "Mock vaccine entry for Covaxin used for testing and demo purposes.",
+    "dosesRequired": 2,
+    "prescriptionRequired": false
+  },
+  {
+    "_id": "vac_003",
+    "name": "Corbevax",
+    "manufacturer": "Biological E",
+    "description": "Mock vaccine entry for Corbevax used for testing and demo purposes.",
+    "dosesRequired": 2,
+    "prescriptionRequired": true
+  },
+  {
+    "_id": "vac_004",
+    "name": "Sputnik V",
+    "manufacturer": "Dr. Reddy's",
+    "description": "Mock vaccine entry for Sputnik V used for testing and demo purposes.",
+    "dosesRequired": 2,
+    "prescriptionRequired": true
+  },
+  {
+    "_id": "vac_005",
+    "name": "Covovax",
+    "manufacturer": "Serum Institute of India",
+    "description": "Mock vaccine entry for Covovax used for testing and demo purposes.",
+    "dosesRequired": 2,
+    "prescriptionRequired": false
+  },
+  {
+    "_id": "vac_006",
+    "name": "Gemcovac-OM",
+    "manufacturer": "Gennova Biopharmaceuticals",
+    "description": "Mock vaccine entry for Gemcovac-OM used for testing and demo purposes.",
+    "dosesRequired": 1,
+    "prescriptionRequired": false
+  },
+  {
+    "_id": "vac_007",
+    "name": "iNCOVACC",
+    "manufacturer": "Bharat Biotech",
+    "description": "Mock vaccine entry for iNCOVACC used for testing and demo purposes.",
+    "dosesRequired": 1,
+    "prescriptionRequired": false
+  },
+  {
+    "_id": "vac_008",
+    "name": "Tetanus Toxoid",
+    "manufacturer": "Multiple",
+    "description": "Mock vaccine entry for Tetanus Toxoid used for testing and demo purposes.",
+    "dosesRequired": 1,
+    "prescriptionRequired": false
+  }
+]
