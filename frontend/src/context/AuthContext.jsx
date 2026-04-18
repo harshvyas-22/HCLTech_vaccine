@@ -36,6 +36,8 @@ export function AuthProvider({ children }) {
       const tokenValue = response.data.token;
       setUser(userData);
       setToken(tokenValue);
+      localStorage.setItem('token', tokenValue);
+      localStorage.setItem('user', JSON.stringify(userData));
       toast.success('Welcome back!');
       return { user: userData, token: tokenValue };
     } catch (error) {
@@ -54,6 +56,8 @@ export function AuthProvider({ children }) {
       const tokenValue = response.data.token;
       setUser(userData);
       setToken(tokenValue);
+      localStorage.setItem('token', tokenValue);
+      localStorage.setItem('user', JSON.stringify(userData));
       toast.success('Registration successful!');
       return { user: userData, token: tokenValue };
     } catch (error) {

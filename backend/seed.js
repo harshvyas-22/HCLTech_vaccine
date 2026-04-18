@@ -28,16 +28,22 @@ const importSeedData = async () => {
     process.exit(1);
   }
 
-  const adminUser =
-    (await User.findOne({ role: 'admin' })) ||
-    (await User.create({
-      name: 'Seed Admin',
-      email: 'seed.admin@example.com',
-      password: 'Admin1234',
-      phone: '9000000000',
+  let adminUser = await User.findOne({ role: 'admin' });
+  if (!adminUser) {
+    adminUser = await User.create({
+      name: 'Admin User',
+      email: 'admin@gmail.com',
+      password: 'admin123',
+      phone: '9999999999',
       role: 'admin',
-      dateOfBirth: new Date('1980-01-01'),
-    }));
+      dateOfBirth: new Date('1990-01-15'),
+      isEmailVerified: true,
+    });
+  } else {
+    // Update existing admin with new credentials
+    adminUser.password = 'admin123';
+    await adminUser.save();
+  }
 
   console.log(`Using admin user ${adminUser.email}`);
 
@@ -69,7 +75,8 @@ const importSeedData = async () => {
 
   const unmatchedVaccineIds = new Set();
   hospitals.forEach((hospital) => hospital.vaccines.forEach((vacId) => unmatchedVaccineIds.add(vacId)));
-  unmatchedVaccineIds.forEach((externalId) => {
+  const placeholderVaccineSaves = [];
+  for (const externalId of unmatchedVaccineIds) {
     if (!vaccineIdMap.has(externalId)) {
       const newVaccine = new Vaccine({
         name: `Imported ${externalId}`,
@@ -81,9 +88,10 @@ const importSeedData = async () => {
         gapBetweenDoses: 0,
       });
       vaccineIdMap.set(externalId, newVaccine._id);
-      newVaccine.save();
+      placeholderVaccineSaves.push(newVaccine.save());
     }
-  });
+  }
+  await Promise.all(placeholderVaccineSaves);
 
   const createPlaceholderEmail = (name, suffix) => {
     return `${normalizeName(name)}${suffix}@hospital.local`;
