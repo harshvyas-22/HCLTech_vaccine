@@ -1447,5 +1447,405 @@
         "booked": 5
       }
     ]
+  },
+  {
+    "_id": "hsp_008",
+    "name": "Anganwadi Polio Center",
+    "city": "Delhi",
+    "state": "Delhi",
+    "pincode": "110005",
+    "address": "Anganwadi Center, Karol Bagh, Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.1915,
+        28.6429
+      ]
+    },
+    "vaccines": [
+      "vac_009"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-20",
+        "total": 100,
+        "booked": 0
+      }
+    ]
+  },
+  {
+    "_id": "hsp_009",
+    "name": "Government Hospital Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "pincode": "110002",
+    "address": "101, Rajendra Place, New Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.2007,
+        28.6165
+      ]
+    },
+    "vaccines": [
+      "vac_010"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-19",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-21",
+        "total": 40,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-22",
+        "total": 50,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-23",
+        "total": 60,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-24",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 60,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-26",
+        "total": 50,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-27",
+        "total": 40,
+        "booked": 5
+      }
+    ]
+  },
+  {
+    "_id": "hsp_010",
+    "name": "Government Hospital Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400003",
+    "address": "54, Fort, Mumbai",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8331,
+        18.9676
+      ]
+    },
+    "vaccines": [
+      "vac_010"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-20",
+        "total": 60,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-20",
+        "total": 60,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-20",
+        "total": 60,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-20",
+        "total": 70,
+        "booked": 20
+      },
+      {
+        "date": "2026-04-20",
+        "total": 50,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-24",
+        "total": 60,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-25",
+        "total": 70,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-26",
+        "total": 60,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-27",
+        "total": 50,
+        "booked": 8
+      }
+    ]
+  },
+  {
+    "_id": "hsp_011",
+    "name": "Delhi Anganwadi Center",
+    "city": "Delhi",
+    "state": "Delhi",
+    "pincode": "110015",
+    "address": "456, Shakti Nagar, Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.2500,
+        28.6500
+      ]
+    },
+    "vaccines": [
+      "vac_009"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-20",
+        "total": 100, 
+        "booked": 25
+      }
+    ]
+  },
+  {
+    "_id": "hsp_012",
+    "name": "Delhi Government Hospital",
+    "city": "Delhi",
+    "state": "Delhi",
+    "pincode": "110001",
+    "address": "789, New Delhi, Delhi",
+    "location": {
+      "type": "Point",
+        "coordinates": [
+        77.2300,
+        28.6300
+      ]
+    },
+    "vaccines": [
+      "vac_010"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 30,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-20",
+        "total": 30,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-20",
+        "total": 30,
+        "booked": 3
+      },
+      {
+        "date": "2026-04-21",
+        "total": 25,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-22",
+        "total": 30,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-23",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-24",
+        "total": 25,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-25",
+        "total": 30,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-26",
+        "total": 30,
+        "booked": 6
+      },
+      {
+        "date": "2026-04-27",
+        "total": 25,
+        "booked": 5
+      }
+    ]
+  },
+  {
+    "_id": "hsp_013",
+    "name": "Mumbai Government Hospital",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400011",
+    "address": "321, CST Area, Mumbai",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8350,
+        18.9676
+      ]
+    },
+    "vaccines": [
+      "vac_010"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 40,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-19",
+        "total": 40,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-20",
+        "total": 40,
+        "booked": 5
+      },
+      {
+        "date": "2026-04-21",
+        "total": 35,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-22",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-23",
+        "total": 40,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-24",
+        "total": 35,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-25",
+        "total": 40,
+        "booked": 15
+      },
+      {
+        "date": "2026-04-26",
+        "total": 40,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-27",
+        "total": 35,
+        "booked": 8
+      }
+    ]
+  },
+  {
+    "_id": "hsp_014",
+    "name": "Bangalore Government Medical College",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "pincode": "560002",
+    "address": "512, Fort Area, Bengaluru",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6090,
+        12.9789
+      ]
+    },
+    "vaccines": [
+      "vac_010"
+    ],
+    "dailySlots": [
+      {
+        "date": "2026-04-18",
+        "total": 35,
+        "booked": 6
+      },
+      {
+        "date": "2026-04-19",
+        "total": 35,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-20",
+        "total": 35,
+        "booked": 7
+      },
+      {
+        "date": "2026-04-21",
+        "total": 30,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-22",
+        "total": 35,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-23",
+        "total": 35,
+        "booked": 10
+      },
+      {
+        "date": "2026-04-24",
+        "total": 30,
+        "booked": 9
+      },
+      {
+        "date": "2026-04-25",
+        "total": 35,
+        "booked": 12
+      },
+      {
+        "date": "2026-04-26",
+        "total": 35,
+        "booked": 8
+      },
+      {
+        "date": "2026-04-27",
+        "total": 30,
+        "booked": 6
+      }
+    ]
   }
 ]

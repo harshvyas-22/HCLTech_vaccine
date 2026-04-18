@@ -62,5 +62,21 @@
     "description": "Mock vaccine entry for Tetanus Toxoid used for testing and demo purposes.",
     "dosesRequired": 1,
     "prescriptionRequired": false
+  },
+  {
+    "_id": "vac_009",
+    "name": "Polio",
+    "manufacturer": "Serum Institute of India",
+    "description": "Oral Polio Vaccine (OPV) - immunization against poliomyelitis.",
+    "dosesRequired": 3,
+    "prescriptionRequired": false
+  },
+  {
+    "_id": "vac_010",
+    "name": "Rabies",
+    "manufacturer": "Serum Institute of India",
+    "description": "Rabies vaccine for post-exposure prophylaxis and pre-exposure immunization.",
+    "dosesRequired": 4,
+    "prescriptionRequired": true
   }
 ]

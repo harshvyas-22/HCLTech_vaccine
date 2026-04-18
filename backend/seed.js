@@ -3,7 +3,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-dotenv.config();
+dotenv.config({ path: path.join(__dirname, '.env') });
 const connectDB = require('./src/config/db');
 const User = require('./src/models/User');
 const Vaccine = require('./src/models/Vaccine');
@@ -45,9 +45,7 @@ const importSeedData = async () => {
     await adminUser.save();
   }
 
-  console.log(`Using admin user ${adminUser.email}`);
 
-  console.log('Clearing existing vaccine and hospital data...');
   await Vaccine.deleteMany();
   await Hospital.deleteMany();
 
